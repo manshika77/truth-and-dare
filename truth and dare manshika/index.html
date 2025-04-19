@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Truth or Dare</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎲 Truth or Dare - Random Edition</h1>
+
+    <div class="player-input">
+      <textarea id="players" placeholder="Enter player names (one per line)"></textarea>
+      <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <div class="gameplay hidden">
+      <button onclick="playRound()">🎯 Pick Random Player</button>
+      <div id="resultDisplay" class="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
